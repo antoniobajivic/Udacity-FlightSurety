@@ -1,0 +1,82 @@
+body {
+    background-image: url('flight.jpg'); /* Source: iStockPhoto */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 200px;
+    background-color: #000;
+    opacity: 0.9;
+    color: #fff;
+    padding: 40px;
+}
+
+.top-20 {
+    margin-top: 20px;
+}
+
+h5 {
+    color: #999999;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.field {
+    font-weight: bold;
+    text-align: right;
+}
+
+.field-value {
+    color: #0e7fa8;
+}
+
+label.form {
+    font-size: 14px;
+    margin-right: 20px;
+}
+.credit-amount-label{
+    margin-left: 5px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.table-container{
+    width: 100%;
+    margin: 40px auto 0;
+    text-align: center;
+    opacity: 0.9;
+}
+
+@media screen and (min-width: 576px){
+    .table-container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .table-container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .table-container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .table-container {
+        max-width: 1140px;
+    }
+}
+
+
+
+
+
